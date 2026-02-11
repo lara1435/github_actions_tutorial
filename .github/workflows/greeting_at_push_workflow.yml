@@ -1,4 +1,4 @@
-name: greeting_workflow
+name: greeting_at_push_workflow
 on: push
 jobs:
   greeting_job:
