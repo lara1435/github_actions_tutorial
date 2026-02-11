@@ -1,0 +1,10 @@
+name: greeting_workflow
+on: workflow_dispatch
+jobs:
+  greeting_job:
+  runs_on: macos-latest
+  steps:
+    - name: printing_step
+      run:
+        echo "Hello user"
+  
