@@ -2,7 +2,7 @@ name: greeting_workflow
 on: workflow_dispatch
 jobs:
   greeting_job:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: printing_step
         run: echo "Hello user"
